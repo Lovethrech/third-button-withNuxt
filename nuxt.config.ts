@@ -64,7 +64,6 @@ export default defineNuxtConfig({
           href: 'https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap'
         }
       ]
-    },
+    }
   }
-
 })
