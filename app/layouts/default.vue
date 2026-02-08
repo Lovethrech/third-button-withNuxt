@@ -1,4 +1,4 @@
-<scrip
+<script
 
 <template>
 
