@@ -1,4 +1,4 @@
-<scri
+<scrip
 
 <template>
 
