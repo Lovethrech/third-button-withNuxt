@@ -1,4 +1,4 @@
-<script setu
+<script setup
 
 <template>
 
