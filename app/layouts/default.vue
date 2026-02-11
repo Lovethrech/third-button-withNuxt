@@ -1,5 +1,5 @@
 <script setup>
-useHea
+useHead
 </script>
 
 <template>
