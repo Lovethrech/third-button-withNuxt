@@ -72,28 +72,6 @@ useHead({
 </template>
 
 <style scoped>
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding:0;
-    list-style: none;
-    color:#000000;
-    text-decoration: none;
-    outline: none;
-    font-weight: normal;
-}
 
-#default-layout{
-    margin:0;
-}
-body {
-    min-height: 100vh;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-html {
-    margin: 0;
-    padding: 0;
-}
+
 </style>
