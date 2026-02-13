@@ -95,7 +95,7 @@ useHead({
 }
 
 * {
-    box-sizing: border-box;
+    box-sizing: bcontent-box;
     margin: 0;
     padding:0;
     list-style: none;

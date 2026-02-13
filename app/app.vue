@@ -7,8 +7,5 @@
 </template>
 
 <style scoped>
-#app{
-  margin: 0;
-  
-}
+
 </style>
