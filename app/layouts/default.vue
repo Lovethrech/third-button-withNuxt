@@ -1,5 +1,5 @@
 <script setup>
-us
+use
 </script>
 
 <template>
