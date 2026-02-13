@@ -2,8 +2,8 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   dir: {
-    pages: 'app/pages',
-    layouts: 'app/layouts',
+    pages: './app/pages',
+    layouts: './app/layouts',
     app: 'app'
   }
 })
