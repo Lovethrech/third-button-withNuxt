@@ -1,7 +1,26 @@
 <script setup>
-
-import HeaderMenuDetails from "@/data/header-menu-details.json";
-import HeaderMenu from './HeaderMenu.vue';
+const HeaderMenuDetails=[
+    {
+        "id":"1",
+        "name":"home",
+        "link":"/"
+    },
+    {
+        "id":"2",
+        "name":"about",
+        "link":"/"
+    },
+    {
+        "id":"3",
+        "name":"contact",
+        "link":"/"
+    },
+    {
+        "id":"4",
+        "name":"book online",
+        "link":"/"
+    }
+];
 </script>
 
 <template>
@@ -12,11 +31,11 @@ import HeaderMenu from './HeaderMenu.vue';
             class="header-menu-ctn-mini-ctn" 
             :key="HeaderMenuDetail.id"
         >
-            <HeaderMenu 
+            <!-- <HeaderMenu 
                 :name="HeaderMenuDetail.name" 
                 :link="HeaderMenuDetail.link"
             >
-            </HeaderMenu>
+            </HeaderMenu> -->
         </div>
     </div>
 </template>
