@@ -66,7 +66,7 @@ useHead({
 
 <template>
     <div>
-        <h1>Default page</h1>
+        <MainHeader/>
         <NuxtPage/>
     </div>
 </template>
