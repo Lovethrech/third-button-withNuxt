@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="app">
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
@@ -7,5 +7,8 @@
 </template>
 
 <style scoped>
-
+#app{
+  margin: 0;
+  
+}
 </style>
