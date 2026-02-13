@@ -65,7 +65,7 @@ useHead({
 </script>
 
 <template>
-    <div>
+    <div id="default-layout">
         <MainHeader/>
         <NuxtPage/>
     </div>
@@ -83,6 +83,9 @@ useHead({
     font-weight: normal;
 }
 
+#default-layout{
+    margin:0;
+}
 body {
     min-height: 100vh;
     text-rendering: optimizeLegibility;
