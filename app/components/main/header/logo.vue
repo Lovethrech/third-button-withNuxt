@@ -2,14 +2,14 @@
     <div 
         id="header-logo-ctn"
     >
-        <RouterLink 
+        <NuxtLink 
             to="/"
         >
             <img 
                 src="/logo.png" 
                 alt="ThirdEyeButton Logo"
             /> 
-        </RouterLink>
+        </NuxtLink>
     </div>
 </template>
 
