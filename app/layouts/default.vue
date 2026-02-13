@@ -72,30 +72,8 @@ useHead({
 </template>
 
 <style scoped>
-/* color palette from <https://github.com/vuejs/theme> */
-:root {
-    --vt-c-white: #ffffff;
-    --vt-c-white-soft: #f8f8f8;
-    --vt-c-white-mute: #f2f2f2;
-}
-
-/* semantic color variables for this project */
-:root {
-    --color-background: var(--vt-c-white);
-    --color-background-soft: var(--vt-c-white-soft);
-    --color-background-mute: var(--vt-c-white-mute);
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --color-background: var(--vt-c-white);
-        --color-background-soft: var(--vt-c-white-soft);
-        --color-background-mute: var(--vt-c-white-mute);
-    }
-}
-
 * {
-    box-sizing: bcontent-box;
+    box-sizing: border-box;
     margin: 0;
     padding:0;
     list-style: none;
@@ -110,5 +88,9 @@ body {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+html {
+    margin: 0;
+    padding: 0;
 }
 </style>
