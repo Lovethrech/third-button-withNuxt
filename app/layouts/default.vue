@@ -41,7 +41,7 @@ useHead({
     link:[
         {
             rel:'icon',
-            href: './'
+            href: '../assets/logo.png'
         },
         {
             rel:'stylesheet',
