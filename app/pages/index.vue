@@ -1,4 +1,8 @@
-
+<script setup>
+useHead({
+    title:'ThirdButton IT Solution'
+})
+</script>
 
 <template>
     <div class="main">

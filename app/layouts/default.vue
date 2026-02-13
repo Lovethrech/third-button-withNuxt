@@ -65,5 +65,8 @@ useHead({
 </script>
 
 <template>
-
+    <div>
+        <h1>Default page</h1>
+        <nuxt/>
+    </div>
 </template>
