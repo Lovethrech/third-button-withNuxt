@@ -1,7 +1,7 @@
 <script setup>
-useHead{
+useHead({
     
-}
+})
 </script>
 
 <template>
