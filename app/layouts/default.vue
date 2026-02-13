@@ -1,5 +1,6 @@
 <script setup>
 useHead({
+    title:'ThirdButton IT Solution',
     meta:[
         {
             name:'viewport',
