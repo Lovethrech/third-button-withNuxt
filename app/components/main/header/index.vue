@@ -1,4 +1,4 @@
-import { MainHeaderLogo } from '../../../../.nuxt/components';
+import { MainHeaderLogo, MainHeaderNavCtn } from '../../../../.nuxt/components';
 <script setup>
 const screenWidth=ref(window.innerWidth);
 const screenHeight=ref(window.innerHeight);
@@ -31,6 +31,7 @@ const showDropdown=()=>{
 <template>
     <header>
         <MainHeaderLogo/>
+        <MainHeaderNavCtn/>
         <!-- <HeaderLogo></HeaderLogo>
         <HeaderNavCtn 
             :style="{display: displayMenu}"
