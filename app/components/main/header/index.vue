@@ -1,9 +1,5 @@
+import { MainHeaderLogo } from '../../../../.nuxt/components';
 <script setup>
-import {ref, computed} from 'vue';
-import HeaderLogo from './header/HeaderLogo.vue'
-import HeaderNavCtn from './header/HeaderNavCtn.vue';
-import HeaderMenuIcon from './header/HeaderMenuIcon.vue';
-
 const screenWidth=ref(window.innerWidth);
 const screenHeight=ref(window.innerHeight);
 const displayMenu=ref("flex");
@@ -34,7 +30,8 @@ const showDropdown=()=>{
 
 <template>
     <header>
-        <HeaderLogo></HeaderLogo>
+        <MainHeaderLogo/>
+        <!-- <HeaderLogo></HeaderLogo>
         <HeaderNavCtn 
             :style="{display: displayMenu}"
         >
@@ -43,7 +40,7 @@ const showDropdown=()=>{
             :menuIcon="menuIcon" 
             :onClick="showDropdown"
         >
-        </HeaderMenuIcon>
+        </HeaderMenuIcon> -->
     </header>
 </template>
 

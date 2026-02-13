@@ -6,7 +6,7 @@
             to="/"
         >
             <img 
-                src="/src/assets/logo.png" 
+                src="/logo.png" 
                 alt="ThirdEyeButton Logo"
             /> 
         </RouterLink>
