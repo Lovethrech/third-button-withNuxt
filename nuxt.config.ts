@@ -1,5 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  srcDir: './app'
+  dir: {
+    pages: 'app/pages',
+    layouts: 'app/layouts',
+    app: 'app'
+  }
 })
